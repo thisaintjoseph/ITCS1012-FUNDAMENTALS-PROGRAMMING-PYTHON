@@ -12,9 +12,10 @@ while True:
         break
 
     anime_list.append(title)
-    print(f"'{title}' has been added to your anime list.")
+    print(f"{title} has been added to your anime list.")
 
 
 print("\nYour anime list includes:")
 for anime in anime_list:
+
     print(f"- {anime}")
