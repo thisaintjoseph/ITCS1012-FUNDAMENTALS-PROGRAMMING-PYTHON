@@ -1,5 +1,4 @@
 
-
 anime_list = []
 
 
@@ -19,3 +18,4 @@ print("\nYour anime list includes:")
 for anime in anime_list:
 
     print(f"- {anime}")
+
