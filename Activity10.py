@@ -11,10 +11,10 @@ equal = number * price * .05
 man = number * price
 more = man - equal
 
-print("---------------------------")
 
 if pwd.lower() == "yes":
 	print("Hello", name, "\nItem: ",item, "\nQuantity: ",number,"\nPrice each: ",price,"\nTotal: ",man ,"\nDiscount:",equal,"\nTotal w/discount: ",more)
 else
 	print("Hello", name, "\nItem: ",item, "\nQuantity: ",number,"\nPrice each: ",price,"\nTotal: ",man ,"\nDiscount:","\nTotal w/discount: ",man)
+
 
