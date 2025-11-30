@@ -1,0 +1,34 @@
+
+
+def activity1():
+    print("Hello World")
+
+def activity4():
+    name = input("Enter a string --> ")
+    print("Your name has ", len(name), "characters")
+
+def activity5():
+    something = eval(input(" input something --> "))
+
+    print("The data type of something is", type(something))
+
+    answer = 19 + something
+
+    print("the answer is", answer)
+
+def activity6():
+    n1 = eval(input("Enter the first number : "))
+    n2 = eval(input("Enter the second number : "))
+    s = n1 + n2
+    d = n1 - n2
+    p = n1 * n2
+    q = n1 / n2
+
+    solution = ((n1 / n2) * 100 - 5) // 300
+    print("\nThe sum of",n1,"and",n2,"is",s) # backlash coa
+    print("The difference of",n1,"and",n2,"is",d)
+    print("The product of",n1,"and",n2,"is",p)
+    print("The quotient of",n1,"and",n2,"is",q)
+    print(n1, "exponent by",n2,"is",n1**n2)
+    print("The remainder of",n1,"and",n2,"is",n1 % n2)
+    print("The floor division of",n1,"and",n2,"is",n1//n2)
