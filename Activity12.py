@@ -1,4 +1,6 @@
-print("Hello world")
 
-for rotate in range (10,1010,10):
-    print(rotate, "I miss you")
+
+for u in range (1 , 11):
+    print(u, "hello world")
+
+
