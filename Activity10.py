@@ -15,7 +15,8 @@ more = man - equal
 if pwd.lower() == "yes":
 	print("Hello", name, "\nItem: ",item, "\nQuantity: ",number,"\nPrice each: ",price,"\nTotal: ",man ,"\nDiscount:",equal,"\nTotal w/discount: ",more)
 else
-	print("Hello", name, "\nItem: ",item, "\nQuantity: ",number,"\nPrice each: ",price,"\nTotal: ",man ,"\nDiscount:","\nTotal w/discount: ",more)
+	print("Hello", name, "\nItem: ",item, "\nQuantity: ",number,"\nPrice each: ",price,"\nTotal: ",man ,"\nDiscount:",equal,"\nTotal w/discount: ",more)
+
 
 
 
