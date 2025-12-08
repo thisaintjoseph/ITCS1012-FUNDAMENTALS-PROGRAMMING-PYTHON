@@ -4,7 +4,7 @@ import random
 
 print("Number guess")
 
-Unique = random.randint(1, 3)
+iba = random.randint(1, 3)
 
 tries = 0
 
@@ -16,7 +16,7 @@ while tuloy == True:
 
     tries += 1 
 
-    if num == Unique: 
+    if num == iba: 
         print("correct answer")
         print(f" you only took {tries} tries")
         break
@@ -24,3 +24,4 @@ while tuloy == True:
         print("wrong answer")
         print("Continue")
         continue
+
