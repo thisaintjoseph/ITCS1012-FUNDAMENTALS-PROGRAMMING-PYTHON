@@ -17,10 +17,11 @@ while num == True:
         break
     else:
         if number % 2 == 0:
-            print("EVEN Number...skipping")
+            print("EVEN Number, skipped..")
             continue
         else:
             print("Number Invalid")
             continue
 print(f"Hi! {name}, The sum of all ODD Numbers is {add} ")
+
 print(f"All the ODD Numbers you input is {odd}")
