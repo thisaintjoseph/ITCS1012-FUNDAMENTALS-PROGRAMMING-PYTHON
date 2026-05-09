@@ -34,7 +34,7 @@ def rewrite_file():
             file.write(new_content + "\n")
         print("[File has been overwritten!]")
     else:
-        print("[Rewrite operation cancelled]")
+        print("[Rewriting has been cancelled]")
 
 def main():
     while True:
