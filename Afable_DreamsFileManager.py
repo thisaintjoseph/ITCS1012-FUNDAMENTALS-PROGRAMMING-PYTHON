@@ -32,7 +32,7 @@ def rewrite_file():
         new_content = input("Enter the new inspiring messages: \n")
         with open("dreams.txt", "w") as file:
             file.write(new_content + "\n")
-        print("[File rewritten successfully!]")
+        print("[File has been overwritten!]")
     else:
         print("[Rewrite operation cancelled]")
 
